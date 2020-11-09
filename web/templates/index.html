@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+	<title>Innova Tech| Home :: Innova Tech</title>
+	<!--/tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Soft Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--//tags -->
+	<link href="{% static 'assets/css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{% static 'assets/css/style.css' %}" rel="stylesheet" type="text/css" media="all" />
+
+	<link href="{% static 'assets/css/font-awesome.css' %}" rel="stylesheet">
+	<!-- //for bootstrap working -->
+	<link href="http://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'
+	    rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<input type="hidden" id="base_url" value="https://innovatech.com/">
+<!-- header -->
+	<div class="header" id="home">
+		<div class="content white agile-info">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+						<a class="navbar-brand" href="{% url 'index' %}">
+							<img style="width: 130px;" src="{% static 'assets/images/logo2.png' %}">
+						</a>
+					</div>
+					<!--/.navbar-header-->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<nav class="link-effect-2" id="link-effect-2">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="{% url 'index' %}" class="effect-3">Home</a></li>
+
+								<li><a href="{% url 'about' %}" class="effect-3">About Us</a></li>
+								<li><a href="{% url 'products' %}" class="effect-3">Our Products</a></li>
+								<li><a href="{% url 'contact' %}" class="effect-3">Contact Us</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!--/.navbar-collapse-->
+					<!--/.navbar-->
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+	<!-- banner -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		
+		<div class="carousel-inner" role="listbox">
+			
+			
+			<div class="item item4 active">
+				<div class="container">
+					<div class="carousel-caption">
+
+						<!-- <h3>Inspiring leadership <span>innovation.</span></h3>
+						<p>Hire. Train. Retain.</p>
+						<div class="agileits-button top_ban_agile">
+							<a class="btn btn-primary btn-lg scroll" href="#welcome" role="button">Read More »</a>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- The Modal -->
+	</div>
+	<!--//banner -->
+	<!-- /mid-services -->
+	<div class="mid_services">
+		<div class="col-md-6 according_inner_grids">
+			
+			<div class="according_info">
+				<div class="panel-group about_panel" id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingOne">
+							<h4 class="panel-title asd">
+								<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+								    aria-controls="collapseOne">
+							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Information technolog and business process outsourcing services
+							</a>
+							</h4>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body panel_text">
+								We provide complete IT Solution such as Website Designing, Website Hosting, Domain, Server, Hardware and Networking, Bulk SMS Services.
+
+							</div>
+						</div>
+
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingTwo">
+							<h4 class="panel-title asd">
+								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+								    aria-controls="collapseTwo">
+							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Internship
+							</a>
+							</h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<div class="panel-body panel_text">
+								We provide Internship programs in all the possible sectors for more information regarding internship programs contact us at contact@alzahraservices.com
+
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingThree">
+							<h4 class="panel-title asd">
+								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+								    aria-controls="collapseThree">
+							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Placement
+							</a>
+							</h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							<div class="panel-body panel_text">
+								We assist and help candidates in geting their desired and preffred job as we have requirements from the employers on regular basis and as per the expectations of the employers and as well as the employee we connect them.
+
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingFour">
+							<h4 class="panel-title asd">
+								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+								    aria-controls="collapseFour">
+							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Career Counselling
+							</a>
+							</h4>
+						</div>
+						<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+							<div class="panel-body panel_text">
+								
+IT's very important for a fresher to know what where and how his/her decisions are going to take them in future, So we help our candidates to explore themselves in terms of their potential and apart from that we also assist and help students to get success in their desired career path.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-md-6 mid_services_img">
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- //mid-services -->
+	<div class="candidate_cv">
+		<div class="tittle_head_w3ls">
+			<h3 class="tittle two">Connect Us</h3>
+		</div>
+		<div class="inner_sec_grids_info login-form">
+			        			<form action="https://alzahraservices.com/welcome/sendmail" method="post"  enctype="multipart/form-data">
+				<div class="col-md-6 form-left">
+					<div class="form-inputs email">
+						<p>Full name</p>
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<input type="text" name="Name" placeholder="" required="" />
+					</div>
+					<div class="form-inputs name">
+						<p>Email</p>
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<input type="email" name="Email" placeholder="" required="" />
+					</div>
+					<div class="form-inputs name">
+						<p>Phone</p>
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<input type="text" name="Telephone" placeholder="" required="" />
+					</div>
+					<div class="form-inputs name">
+						<p>Captcha</p>
+						<p><span class="captcha1">KWUCHU</span>
+<style type="text/css">
+	.captcha1{
+		background: #000;
+		color: #FFF;
+		padding: 5px;
+		font-size: 25px;
+		font-family: cursive;
+	}
+</style>
+						<i class="fa fa-pencil" aria-hidden="true"></i>
+						<input type="text" name="Captcha" placeholder="" required="" value="" />
+					</div>
+				</div>
+				<div class="col-md-6 form-right">
+					<div class="form-inputs name">
+						<p>Comment</p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						<textarea name="Message" placeholder="" required="" style="height: 333px !important;"></textarea>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<input type="submit" value="Submit">
+			</form>
+
+		</div>
+	</div>
+	
+
+	<!-- footer -->
+	<div class="footer_top_agileits">
+		<div class="container">
+			<div class="col-md-4 footer_grid">
+				<h3></h3>
+				<a href="{% url 'index' %}">
+							<img style="width: 200px;" src="{% static 'assets/images/logo1.png' %}">
+						</a>
+			</div>
+			<div class="col-md-4 footer_grid">
+				<h3>Follow Us</h3>
+					<div class="social">
+						<ul>
+							<li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+						</ul>
+					</div>
+			</div>
+			<div class="col-md-4 footer_grid">
+				<h3>Contact Info</h3>
+				<ul class="address">
+					<li><i class="fa fa-map-marker" aria-hidden="true"></i>
+						408, 4th floor, Apollo Premier,<br />
+behind Shagun Garden, Vijay Nagar Square<br />
+indore madhya pradesh 452010</li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:contact@innovatechservices.com">contact@innovatechservices.com</a></li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>+91-9131708806</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+			
+		</div>
+	</div>
+	<div class="footer_w3ls">
+		<div class="container">
+			<div class="footer_bottom">
+				<div class="col-md-6 footer_bottom_grid">
+					<div class="footer_bottom1">
+						
+						<p>© 2020 Innova Tech Services. All rights reserved</p>
+					</div>
+				</div>
+
+				<div class="col-md-6 footer_bottom_grid">
+					<div class="footer_bottom1">
+						
+						<p> 
+							<a href="{% static 'files/TermsConditions.pdf' %}">Terms & Conditions</a> | <a href="{% static 'files/PrivacyPolicy.pdf' %}">Privacy Policy</a> | <a href="{% static 'files/Disclaimer.pdf' %}">Disclaimer</a>
+						</p>
+					</div>
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+
+		</div>
+	</div>
+	<!-- //footer -->
+	<style type="text/css">
+	  .Sharethis{
+	    position: fixed;
+	    top:50%;
+	    right: 0px;
+	    background: green;
+	    width: 50px;
+	    height: 50px;
+	    text-align: center;
+	    border-radius: 10px 0px 0px 10px;
+	  }
+
+	  .Sharethis>a>i{
+	    color: #FFF;
+	    font-size: 40px;
+	    line-height: 50px;
+	  }
+	</style> 
+	<!-- Sharethis -->
+	<div class="Sharethis">
+	    <a href="https://wa.me/918982650208"><i class="fa fa-whatsapp"></i></a>
+	</div>
+	<!-- Sharethis -->
+	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- js -->
+	<script type="text/javascript" src="{% static 'assets/js/jquery-2.1.4.min.js' %}"></script>
+
+	<script type="text/javascript" src="{% static 'assets/js/bootstrap.js' %}"></script>
+</body>
+
+
+</html>
+
+
